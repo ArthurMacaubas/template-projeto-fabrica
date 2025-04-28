@@ -128,8 +128,8 @@ Os requisitos foram elaborados conforme a norma **IEEE Std-830-1998**, garantind
 | RF-008 | Gestão de Estoque | O sistema deve permitir ao estoquista registrar entradas/saídas de insumos e produtos, com alertas automáticos para níveis abaixo de 10% do estoque mínimo. | Alta |
 | RF-009 | Programa de Fidelidade | O sistema deve permitir que clientes acumulem pontos por compras (ex.: 1 ponto por R$10 gastos) e resgatem recompensas (ex.: sorvete grátis após 10 pontos). | Média |
 | RF-010 | Relatórios Operacionais | O sistema deve gerar relatórios diários, semanais e mensais de vendas, estoque e desempenho, com filtros por produto, período e canal (presencial/online). Exportação em PDF e Excel deve ser suportada. | Média |
-| RF-011 | Comunicação com Clientes | O sistema deve enviar notificações automáticas (e-mail, push ou SMS) sobre status de pedidos e promoções, com opção de chat para suporte em tempo real. | Média |
-| RF-012 | Gestão de Usuários | O sistema deve permitir ao gerente cadastrar, editar e excluir contas de funcionários, definindo papéis (gerente, atendente, estoquista) e permissões. | Alta |
+| RF-011 | Gestão de Usuários | O sistema deve permitir ao gerente cadastrar, editar e excluir contas de funcionários, definindo papéis (gerente, atendente, estoquista) e permissões. | Alta |
+| RF-012 | Gestão de Clientes | O sistema deve permitir ao gerente cadastrar, editar e excluir contas de Clientes, definindo Informações da conta (nome, endereço, CPF, email, Nº de Telefone) e permissões. | Alta |
 | RF-013 | Menu Dinâmico | O sistema deve exibir um menu online atualizado em tempo real, com filtros por categoria (sorvetes, picolés, açaís), preço e disponibilidade. | Alta |
 | RF-014 | Gestão de Promoções | O sistema deve permitir ao gerente criar, editar e excluir promoções (ex.: 20% de desconto em açaís às terças-feiras), com aplicação automática no checkout. | Média |
 | RF-015 | Integração com Delivery | O sistema deve integrar APIs de serviços de entrega (ex.: Rappi, iFood) para gerenciar pedidos de delivery, incluindo rastreamento em tempo real. | Média |
@@ -139,7 +139,7 @@ Os requisitos foram elaborados conforme a norma **IEEE Std-830-1998**, garantind
 | RF-019 | Agendamento de Pedidos | O sistema deve permitir que clientes agendem pedidos para retirada ou entrega em datas/horários específicos, com confirmação automática. | Média |
 | RF-020 | Dashboard de Monitoramento | O sistema deve oferecer um dashboard em tempo real para o gerente, exibindo métricas como pedidos pendentes, estoque crítico e vendas do dia. | Alta |
 
-### Requisitos Não Funcionais
+### Requisitos Não Funcionais0  
 
 | ID | Nome | Descrição | Prioridade |
 | --- | --- | --- | --- |
