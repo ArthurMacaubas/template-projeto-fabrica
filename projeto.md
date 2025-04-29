@@ -41,7 +41,7 @@
 | --- | --- |
 | **Nome do Projeto** | Vanilla |
 | **Gerente do Projeto** | Arthur Pietro Macaúbas da Silva |
-| **Principal Objetivo** | Desenvolver um sistema integrado para a GelatoItali, otimizando a gestão de vendas, estoque, pedidos, atendimento ao cliente e fidelização, com interfaces amigáveis e ferramentas de comunicação síncronas e assíncronas. |
+| **Principal Objetivo** | Desenvolver um sistema integrado para a GelatoItali, otimizando a gestão de vendas, estoque, pedidos e fidelização, com interfaces amigáveis. |
 | **Benefícios Esperados** | - Controle eficiente de estoque com alertas automatizados;<br>- Redução de até 30% no tempo de atendimento ao cliente;<br>- Automatização de relatórios financeiros e operacionais;<br>- Aumento de 20% na retenção de clientes por meio de programas de fidelidade;<br>- Minimização de erros em pedidos presenciais e online. |
 | **Início e Término Previstos** | 14/03/2025 - 07/12/2025 |
 
@@ -61,10 +61,10 @@ Este documento detalha os requisitos, funcionalidades e restrições do **Vanill
 
 | Usuário | Descrição |
 | --- | --- |
-| **Usuário Padrão** | Funcionário com acesso básico, incluindo login, visualização de pedidos e uso do chat interno. Todos os outros papéis herdam essas permissões. |
+| **Usuário Padrão** | Funcionário com acesso básico, incluindo login e visualização de pedidos. Todos os outros papéis herdam essas permissões. |
 | **Gerente** | Responsável pela administração do sistema, incluindo cadastro/edição de produtos, funcionários, marcas, tamanhos, relatórios e permissões de acesso. |
-| **Atendente** | Registra pedidos presenciais, aprova pedidos online, gerencia filas de atendimento e interage com clientes via chat ou notificações. |
-| **Estoquista** | Controla o estoque, registrando entradas/saídas, recebendo alertas de níveis críticos e gerando relatórios de insumos. |
+| **Atendente** | Registra pedidos presenciais, aprova pedidos online e gerencia filas de atendimento. |
+| **Estoquista** | Controla o estoque, registrando entradas/saídas e gerando relatórios de insumos. |
 | **Cliente** | Acessa o sistema via web ou aplicativo para consultar o menu, realizar pedidos online, acompanhar status e participar de programas de fidelidade. |
 
 ### Abrangência e Sistemas Similares
@@ -73,7 +73,6 @@ O sistema Vanilla será implementado na **GelatoItali**, uma sorveteria artesana
 
 - Gestão de vendas presenciais e online com integração de pagamentos;
 - Controle de estoque com rastreamento de insumos e produtos acabados;
-- Comunicação com clientes via notificações push, e-mail ou chat;
 - Relatórios detalhados de vendas, estoque e desempenho operacional;
 - Programa de fidelidade para engajamento de clientes.
 
@@ -139,7 +138,7 @@ Os requisitos foram elaborados conforme a norma **IEEE Std-830-1998**, garantind
 | RF-019 | Agendamento de Pedidos | O sistema deve permitir que clientes agendem pedidos para retirada ou entrega em datas/horários específicos, com confirmação automática. | Média |
 | RF-020 | Dashboard de Monitoramento | O sistema deve oferecer um dashboard em tempo real para o gerente, exibindo métricas como pedidos pendentes, estoque crítico e vendas do dia. | Alta |
 
-### Requisitos Não Funcionais0  
+### Requisitos Não Funcionais
 
 | ID | Nome | Descrição | Prioridade |
 | --- | --- | --- | --- |
@@ -168,7 +167,7 @@ Os protótipos, desenvolvidos no **Figma**, refletem a identidade visual da Gela
 - **Checkout**: Interface simplificada para seleção de pagamento e personalização de pedidos;
 - **Dashboard Gerencial**: Gráficos de vendas, estoque e desempenho, com exportação de relatórios;
 - **Tela de Estoque**: Lista de insumos com alertas visuais para níveis críticos;
-- **Área do Cliente**: Histórico de pedidos, pontos de fidelidade e chat de suporte;
+- **Área do Cliente**: Histórico de pedidos e pontos de fidelidade;
 - **Tela de Promoções**: Visualização de promoções ativas e resgate de recompensas;
 - **Tela de Mesas**: Mapa visual para gestão de ocupação de mesas.
 
