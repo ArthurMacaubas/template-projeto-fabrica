@@ -179,14 +179,14 @@ Os protótipos serão validados com a GelatoItali em sprints iniciais, com ajust
 
 O diagrama UML inclui as seguintes entidades principais:
 
-- **Produto**: Atributos (id, nome, sabor, tamanho, preço, marca, estoque, imagem);
-- **Pedido**: Atributos (id, cliente, itens, status, valorTotal, data, canal, mesa, agendamento);
-- **Cliente**: Atributos (id, nome, email, telefone, pontosFidelidade, avaliacoes);
-- **Funcionário**: Atributos (id, nome, cargo, login, senha, permissões);
-- **Marca**: Atributos (id, nome, descrição);
-- **Estoque**: Atributos (id, produto, quantidade, nivelMinimo, nivelCritico);
-- **Fornecedor**: Atributos (id, nome, contato, insumos);
-- **Promocao**: Atributos (id, nome, desconto, dataInicio, dataFim, produtos).
+- **Produto**: Atributos (id_produto, nome, sabor, tamanho, preço, marca, estoque, imagem);
+- **Pedido**: Atributos (id_pedido, cliente, itens, status, valorTotal, data, canal, mesa, agendamento);
+- **Cliente**: Atributos (id_cliente, nome, email, telefone, pontosFidelidade, avaliacoes);
+- **Funcionário**: Atributos (id_funcionarios, nome, cargo, login, senha, permissões);
+- **Marca**: Atributos (id_Marca, nome, descrição);
+- **Estoque**: Atributos (id_estoque, produto, quantidade, nivelMinimo, nivelCritico);
+- **Fornecedor**: Atributos (id_fornecedor, nome, contato, produtos);
+- **Promocao**: Atributos (id_promocao, nome, desconto, dataInicio, dataFim, produtos).
 
 **Relações**:
 
