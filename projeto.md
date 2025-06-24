@@ -131,12 +131,10 @@ Os requisitos foram elaborados conforme a norma **IEEE Std-830-1998**, garantind
 | RF-012 | Gestão de Clientes | O sistema deve permitir ao gerente cadastrar, editar e excluir contas de Clientes, definindo Informações da conta (nome, endereço, CPF, email, Nº de Telefone) e permissões. | Alta |
 | RF-013 | Menu Dinâmico | O sistema deve exibir um menu online atualizado em tempo real, com filtros por categoria (sorvetes, picolés, açaís), preço e disponibilidade. | Alta |
 | RF-014 | Gestão de Promoções | O sistema deve permitir ao gerente criar, editar e excluir promoções (ex.: 20% de desconto em açaís às terças-feiras), com aplicação automática no checkout. | Média |
-| RF-015 | Integração com Delivery | O sistema deve integrar APIs de serviços de entrega (ex.: Rappi, iFood) para gerenciar pedidos de delivery, incluindo rastreamento em tempo real. | Média |
-| RF-016 | Gestão de Mesas | O sistema deve permitir ao atendente associar pedidos presenciais a mesas específicas, com visualização do status de ocupação (livre, ocupada, aguardando pagamento). | Média |
-| RF-017 | Avaliação de Clientes | O sistema deve permitir que clientes avaliem pedidos (ex.: nota de 1 a 5 estrelas) e deixem comentários, com relatórios de satisfação disponíveis ao gerente. | Baixa |
-| RF-018 | Gestão de Fornecedores | O sistema deve permitir ao gerente cadastrar, editar e excluir fornecedores, associando-os a insumos para rastreamento de compras. | Média |
-| RF-019 | Agendamento de Pedidos | O sistema deve permitir que clientes agendem pedidos para retirada ou entrega em datas/horários específicos, com confirmação automática. | Média |
-| RF-020 | Dashboard de Monitoramento | O sistema deve oferecer um dashboard em tempo real para o gerente, exibindo métricas como pedidos pendentes, estoque crítico e vendas do dia. | Alta |
+| RF-015 | Gestão de Mesas | O sistema deve permitir ao atendente associar pedidos presenciais a mesas específicas, com visualização do status de ocupação (livre, ocupada, aguardando pagamento). | Média |
+| RF-016 | Avaliação de Clientes | O sistema deve permitir que clientes avaliem pedidos (ex.: nota de 1 a 5 estrelas) e deixem comentários, com relatórios de satisfação disponíveis ao gerente. | Baixa |
+| RF-017 | Gestão de Fornecedores | O sistema deve permitir ao gerente cadastrar, editar e excluir fornecedores, associando-os a insumos para rastreamento de compras. | Média |
+| RF-018 | Dashboard de Monitoramento | O sistema deve oferecer um dashboard em tempo real para o gerente, exibindo métricas como pedidos pendentes, estoque crítico e vendas do dia. | Alta |
 
 ### Requisitos Não Funcionais
 
