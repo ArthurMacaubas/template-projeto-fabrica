@@ -125,12 +125,12 @@ Os requisitos foram elaborados conforme a norma **IEEE Std-830-1998**, garantind
 | RF-006 | Gestão de Pedidos | O sistema deve permitir que atendentes registrem pedidos presenciais e clientes realizem pedidos online, com status atualizáveis (recebido, em preparo, pronto, entregue). Deve incluir opção de personalização (ex.: escolha de caldas). | Alta |
 | RF-007 | Processamento de Pagamentos | O sistema deve integrar gateways de pagamento para transações via cartão (crédito/débito), Pix e dinheiro, com confirmação automática e emissão de recibos digitais. | Alta |
 | RF-008 | Gestão de Estoque | O sistema deve permitir ao estoquista registrar entradas/saídas de insumos e produtos, com alertas automáticos para níveis abaixo de 10% do estoque mínimo. | Alta |
-| RF-011 | Gestão de Usuários | O sistema deve permitir ao gerente cadastrar, editar e excluir contas de funcionários, definindo papéis (gerente, atendente, estoquista) e permissões. | Alta |
-| RF-013 | Menu Dinâmico | O sistema deve exibir um menu online atualizado em tempo real, com filtros por categoria (sorvetes, picolés, açaís), preço e disponibilidade. | Alta |
-| RF-014 | Gestão de Promoções | O sistema deve permitir ao gerente criar, editar e excluir promoções (ex.: 20% de desconto em açaís às terças-feiras), com aplicação automática no checkout. | Média |
-| RF-015 | Gestão de Mesas | O sistema deve permitir ao atendente associar pedidos presenciais a mesas específicas, com visualização do status de ocupação (livre, ocupada, aguardando pagamento). | Média |
-| RF-017 | Gestão de Fornecedores | O sistema deve permitir ao gerente cadastrar, editar e excluir fornecedores, associando-os a insumos para rastreamento de compras. | Média |
-| RF-018 | Dashboard de Monitoramento | O sistema deve oferecer um dashboard em tempo real para o gerente, exibindo métricas como pedidos pendentes, estoque crítico e vendas do dia. | Alta |
+| RF-009 | Gestão de Usuários | O sistema deve permitir ao gerente cadastrar, editar e excluir contas de funcionários, definindo papéis (gerente, atendente, estoquista) e permissões. | Alta |
+| RF-010 | Menu Dinâmico | O sistema deve exibir um menu online atualizado em tempo real, com filtros por categoria (sorvetes, picolés, açaís), preço e disponibilidade. | Alta |
+| RF-011 | Gestão de Promoções | O sistema deve permitir ao gerente criar, editar e excluir promoções (ex.: 20% de desconto em açaís às terças-feiras), com aplicação automática no checkout. | Média |
+| RF-012 | Gestão de Mesas | O sistema deve permitir ao atendente associar pedidos presenciais a mesas específicas, com visualização do status de ocupação (livre, ocupada, aguardando pagamento). | Média |
+| RF-013 | Gestão de Fornecedores | O sistema deve permitir ao gerente cadastrar, editar e excluir fornecedores, associando-os a insumos para rastreamento de compras. | Média |
+| RF-014 | Dashboard de Monitoramento | O sistema deve oferecer um dashboard em tempo real para o gerente, exibindo métricas como pedidos pendentes, estoque crítico e vendas do dia. | Alta |
 
 ### Requisitos Não Funcionais
 
